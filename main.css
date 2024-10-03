@@ -1,0 +1,18 @@
+body {
+    background-color:lightblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a{
+    color: #000;
+    font-size: 24px;
+    padding: 25px;
+    
+    
+}
+img {
+    width: 300px;
+}
+.gray{
+    background-color: #ccc
+}
