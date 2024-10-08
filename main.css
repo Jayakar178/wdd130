@@ -1,18 +1,30 @@
 body {
-    background-color:lightblue;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:beige;
+    font-size:  24px;
 }
 
+nav,footer{
+    background-color: steelblue;
+    text-align: center;
+    display:flex;
+    justify-content: space-around;
+}
 a{
-    color: #000;
-    font-size: 24px;
+    color: beige;
     padding: 25px;
-    
-    
+    font-size: 24px;
 }
-img {
-    width: 300px;
+main a{
+    color:black;
+    font-size: 1cm;
 }
-.gray{
-    background-color: #ccc
+a:hover{
+    background-color: beige;
+    color:steelblue;
+}
+h1{
+    text-align:center;
+}
+img{
+    width: 30%;
 }
