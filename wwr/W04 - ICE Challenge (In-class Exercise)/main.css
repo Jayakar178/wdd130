@@ -1,0 +1,63 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #6DAEDB;
+    color: #ffffff;
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 1.2em;
+    font-style: italic;
+    margin: 10px 0;
+}
+
+.author {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.steps {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+    font-size: 1.2em;
+}
+
+.steps li {
+    margin: 10px 0;
+}
+
+.image-container {
+    margin: 20px 0;
+}
+
+.image-container img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.quote {
+    font-size: 1.5em;
+    font-style: italic;
+    margin: 30px 0;
+    color: #ffffff;
+}
+
+.footer {
+    font-size: 0.9em;
+    margin-top: 20px;
+}
