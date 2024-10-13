@@ -33,29 +33,32 @@ nav a:hover {
 
 .book,
 .join {
-    background-color: #yourColor; /* Replace with desired color */
+    background-color: none; /* Replace with desired color */
 }
 
 .book:hover,
 .join:hover {
-    background-color: #yourHoverColor; /* Replace with desired hover color */
+    background-color: none; /* Replace with desired hover color */
 }
 
 .msg {
-    background-color: #yourColor; /* Replace with desired color */
+    background-color: none; /* Replace with desired color */
 }
 
 footer {
-    background-color: #yourColor; /* Replace with desired color */
+    background-color: none; /* Replace with desired color */
 }
 
 /* Foreground colors */
 nav a {
-    color: #yourTextColor; /* Replace with desired color */
+    text-align: center;
+    text-decoration: none;
+    color: #fcfbfb; /* Replace with desired color */
 }
 
 nav a:hover {
-    color: #yourHoverTextColor; /* Replace with desired hover color */
+    background-color: black;
+    color: #d9c2a3; /* Replace with desired hover color */
 }
 
 .home-title,
@@ -67,7 +70,7 @@ h4,
 footer,
 footer a,
 footer a:hover {
-    color: #yourTextColor; /* Replace with desired text color */
+    color: none; /* Replace with desired text color */
 }
 
 /* Width adjustments */
