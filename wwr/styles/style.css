@@ -1,21 +1,96 @@
- {
-    max-width: 1600px; 
-    margin: 0 auto;   
+/* Container styles */
+#content {
+    max-width: 1600px;
+    margin: 0 auto; /* Centering */
 }
 
-nav a {
-    text-align: center;
-}
-
-#hero-msg h1, 
-#hero-msg h4 {
-    text-align: center;
-}
-
-.button-box {
-    text-align: center;
-}
-
+/* Center text in specified elements */
+nav a,
+#hero-msg h1,
+#hero-msg h4,
+.button-box,
 main section {
     text-align: center;
+}
+
+/* Background container styles */
+#background {
+    height: 725px; /* Background height */
+}
+
+/* Background colors */
+body {
+    background-color: #fcfbfb;
+}
+
+header {
+    background-color: rgba(20, 30, 13, 0.7);
+}
+
+nav a:hover {
+    background-color: black;
+}
+
+.book,
+.join {
+    background-color: #yourColor; /* Replace with desired color */
+}
+
+.book:hover,
+.join:hover {
+    background-color: #yourHoverColor; /* Replace with desired hover color */
+}
+
+.msg {
+    background-color: #yourColor; /* Replace with desired color */
+}
+
+footer {
+    background-color: #yourColor; /* Replace with desired color */
+}
+
+/* Foreground colors */
+nav a {
+    color: #yourTextColor; /* Replace with desired color */
+}
+
+nav a:hover {
+    color: #yourHoverTextColor; /* Replace with desired hover color */
+}
+
+.home-title,
+h4,
+.book,
+.join,
+.msg h2,
+.msg p,
+footer,
+footer a,
+footer a:hover {
+    color: #yourTextColor; /* Replace with desired text color */
+}
+
+/* Width adjustments */
+.icon {
+    width: 80px; /* Icon width */
+}
+
+#hero-img {
+    width: 100%; /* Responsive hero image */
+}
+
+/* Link styles */
+nav a,
+.book,
+.join,
+footer a {
+    text-decoration: none; /* Remove underline */
+}
+
+footer p {
+    font-size: 1.2em; /* Larger footer text */
+}
+
+footer p a:hover {
+    text-decoration: underline; /* Underline on hover */
 }
