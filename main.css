@@ -48,10 +48,12 @@ p {
     border: 5px solid black;
     box-sizing: border-box;
     line-height: 1.5em;
+    border-radius: 10px;
 }
 
 footer p {
     color: beige;
     text-align: center;
+    background-color: steelblue;
 
 }
