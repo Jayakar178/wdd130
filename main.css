@@ -26,6 +26,10 @@ a:hover{
     background-color: beige;
     color:steelblue;
 }
+.active {
+    background-color: beige;
+    color: steelblue;
+}
 h1{
     text-align:center;
 }
