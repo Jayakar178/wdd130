@@ -31,4 +31,19 @@ h1{
 }
 img{
     width: 30%;
+    display: block;
+    margin: 50px auto;
+}
+
+p {
+    width: 70%;
+    margin: 25px auto;
+    line-height: 1.25em;
+    background-color: lightblue;
+}
+
+footer p {
+    color: beige;
+    text-align: center;
+
 }
