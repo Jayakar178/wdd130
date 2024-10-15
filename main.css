@@ -44,9 +44,10 @@ p {
     margin: 25px auto;
     line-height: 1.25em;
     background-color: lightblue;
-    padding: 50%;
+    padding: 5%;
     border: 5px solid black;
     box-sizing: border-box;
+    line-height: 1.5em;
 }
 
 footer p {
