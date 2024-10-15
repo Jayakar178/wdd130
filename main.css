@@ -44,6 +44,9 @@ p {
     margin: 25px auto;
     line-height: 1.25em;
     background-color: lightblue;
+    padding: 50%;
+    border: 5px solid black;
+    box-sizing: border-box;
 }
 
 footer p {
