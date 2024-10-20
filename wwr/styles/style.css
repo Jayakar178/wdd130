@@ -1,3 +1,12 @@
+/* Import Google Fonts at the very top */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Rock+Salt&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box; /* Apply box-sizing globally */
+}
+
 #content {
     max-width: 1600px;
     margin: 0 auto; 
@@ -17,11 +26,10 @@ main section {
 
 body {
     background-color: #fcfbfb;
-    font-family: Raleway, Arial, sans-serif;
+    font-family: 'Raleway', Arial, sans-serif; /* Updated font-family */
     font-size: 22px;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; /* Added global box-sizing */
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
 }
 
 header {
@@ -29,10 +37,10 @@ header {
 }
 
 nav a {
-    text-align: center;
     text-decoration: none;
     color: #fcfbfb; 
-    margin: 0 15px; /* Added spacing between links */
+    padding: 35px; /* Added padding for spacing */
+    margin: 0 15px; /* Spacing between links */
 }
 
 nav a:hover {
@@ -43,6 +51,9 @@ nav a:hover {
 .book,
 .join {
     background-color: #f5f5dc; 
+    padding: 15px 30px; /* Added padding */
+    margin-top: 50px; /* Added margin */
+    border-radius: 5px; /* Added border-radius */
 }
 
 .book:hover,
@@ -52,19 +63,23 @@ nav a:hover {
 
 .msg {
     background-color: #e0f7fa; 
+    padding: 35px; /* Added padding */
 }
 
 footer {
     background-color: #6b8e23; 
+    padding: 25px 50px; /* Added padding */
+    margin-top: 200px; /* Added margin */
 }
 
 .home-title {
-    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
-    font-size: 2em;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif; /* Headline font */
+    font-size: 2em; /* Increased size */
+    margin-top: 10px; /* Added margin */
 }
 
 h2 {
-    margin: 20px 0; /* Added margin for spacing */
+    margin: 0; /* Reset margin */
 }
 
 h4,
@@ -73,7 +88,7 @@ h4,
 .msg h2,
 .msg {
     background-color: #6f7364;
-    line-height: 1.5em;
+    line-height: 1.5em; /* Adjusted line-height */
 }
 
 footer,
@@ -84,6 +99,7 @@ footer a:hover {
 
 .icon {
     width: 80px; 
+    padding-top: 10px; /* Added padding */
 }
 
 #hero-img {
@@ -91,12 +107,12 @@ footer a:hover {
 }
 
 .card-img {
-    border: 10px solid #d9c2a3;
-    border-radius: 10px; /* Added border radius */
+    border: 10px solid #d9c2a3; /* Set border */
+    border-radius: 10px; /* Set border-radius */
 }
 
 main section img {
-    box-sizing: border-box;
+    box-sizing: border-box; /* Ensure sizing includes borders */
 }
 
 footer a {
