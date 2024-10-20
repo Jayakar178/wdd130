@@ -1,11 +1,5 @@
-/* Import Google Fonts at the very top */
+/* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Raleway&family=Rock+Salt&display=swap');
-
-*,
-*::before,
-*::after {
-    box-sizing: border-box; /* Apply box-sizing globally */
-}
 
 #content {
     max-width: 1600px;
@@ -20,16 +14,13 @@ main section {
     text-align: center;
 }
 
-#background {
-    height: 725px; 
-}
-
 body {
     background-color: #fcfbfb;
-    font-family: 'Raleway', Arial, sans-serif; /* Updated font-family */
-    font-size: 22px;
+    font-family: 'Raleway', Arial, sans-serif; /* Body font */
+    font-size: 22px; /* Default font size */
     margin: 0; /* Reset margin */
     padding: 0; /* Reset padding */
+    box-sizing: border-box; /* Apply box-sizing */
 }
 
 header {
@@ -39,7 +30,7 @@ header {
 nav a {
     text-decoration: none;
     color: #fcfbfb; 
-    padding: 35px; /* Added padding for spacing */
+    padding: 35px; /* Added padding */
     margin: 0 15px; /* Spacing between links */
 }
 
@@ -53,7 +44,7 @@ nav a:hover {
     background-color: #f5f5dc; 
     padding: 15px 30px; /* Added padding */
     margin-top: 50px; /* Added margin */
-    border-radius: 5px; /* Added border-radius */
+    border-radius: 5px; /* Rounded corners */
 }
 
 .book:hover,
@@ -83,18 +74,9 @@ h2 {
 }
 
 h4,
-.book,
-.join,
-.msg h2,
-.msg {
+.msg h2 {
     background-color: #6f7364;
     line-height: 1.5em; /* Adjusted line-height */
-}
-
-footer,
-footer a,
-footer a:hover {
-    color: #ff5722; 
 }
 
 .icon {
@@ -112,7 +94,7 @@ footer a:hover {
 }
 
 main section img {
-    box-sizing: border-box; /* Ensure sizing includes borders */
+    width: 100%; /* Ensure images are responsive */
 }
 
 footer a {
