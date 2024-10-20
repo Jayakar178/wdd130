@@ -55,6 +55,7 @@ nav a:hover {
 .msg {
     background-color: #e0f7fa; 
     padding: 35px; /* Added padding */
+    line-height: 1.5em; /* Increased line-height */
 }
 
 footer {
@@ -76,7 +77,6 @@ h2 {
 h4,
 .msg h2 {
     background-color: #6f7364;
-    line-height: 1.5em; /* Adjusted line-height */
 }
 
 .icon {
@@ -94,6 +94,7 @@ h4,
 }
 
 main section img {
+    box-sizing: border-box; /* Box sizing applied */
     width: 100%; /* Ensure images are responsive */
 }
 
