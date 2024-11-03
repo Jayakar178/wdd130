@@ -142,6 +142,21 @@ nav a:hover {
     text-align: center;
     color: #d9c2a3; /* Adjust font color */
 }
+.join {
+    background-color: #E0C7A6; /* Light beige background */
+    color: #333; /* Dark text color */
+    font-weight: bold;
+    padding: 10px 30px; /* Adjust padding for a button-like appearance */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+    margin-top: 20px; /* Space between text and button */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+
 
 .book:hover,
 .join:hover {
