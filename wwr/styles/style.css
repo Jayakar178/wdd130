@@ -10,6 +10,51 @@ nav a,
 main section {
     text-align: center;
 }
+#hero-msg {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#hero-msg h1 {
+        color: #d9c2a3; /* Change this to a lighter color */
+        font-family: 'Rock Salt', sans-serif; /* Make sure this font is applied */
+        font-size: 2.5em; /* Increase font size if needed */
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow for contrast */
+        text-align: center; /* Center the text */
+    }
+    #hero-msg h4 {
+        color: #d9c2a3; /* Lighter color for better contrast */
+        font-size: 1.2em; /* Adjust font size */
+        text-align: center; /* Center the text */
+        margin-top: 10px; /* Adjust spacing below the headline */
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Subtle shadow for readability */
+    }
+    .button-box .book {
+        background-color: #d9c2a3; /* Light background color */
+        color: #333; /* Darker text color */
+        font-weight: bold;
+        padding: 10px 20px; /* Adjust padding */
+        border-radius: 5px;
+        font-size: 1em;
+        text-align: center;
+        margin-top: 20px; /* Adjust spacing below subtitle */
+        text-decoration: none;
+        display: inline-block;
+    }
+    
+    .button-box .book:hover {
+        background-color: #8b4513; /* Darker background on hover */
+        color: white; /* White text on hover */
+    }
+    
+    
+
 
 #background {
     height: 725px; 
@@ -21,53 +66,122 @@ body {
     font-size: 22px;
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Added global box-sizing */
+    box-sizing: border-box; 
 }
 
 header {
+    display: grid;
+    grid-template-columns: 150px auto;
     background-color: rgba(20, 30, 13, 0.7);
+
 }
+
+#logo_link img {
+    width: 80px; 
+    height: auto;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+
+.logo {
+    width: 80px;
+    height: auto;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
 
 nav a {
     text-align: center;
     text-decoration: none;
     color: #fcfbfb; 
-    margin: 0 15px; /* Added spacing between links */
+    padding: 35px;
 }
 
 nav a:hover {
     background-color: black;
     color: #d9c2a3; 
 }
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+    text-align: center;
+}
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+             
 
+
+/* Button Styling */
 .book,
 .join {
-    background-color: #f5f5dc; 
+    background-color: #d9c2a3; /* Set button background color */
+    color: #333; /* Darker color for text */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make button text bold */
+    padding: 15px 30px; /* Adjust padding to fit button size */
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 50px;
+    text-align: center;
+    color: #d9c2a3; /* Adjust font color */
 }
 
 .book:hover,
 .join:hover {
     background-color: #8b4513; 
+    color: white; /* Change text color on hover */
 }
 
 .msg {
-    background-color: #e0f7fa; 
+    background-color: #6f7364; 
+    line-height: 1.5em;
+    padding: 20px;
 }
 
 footer {
-    background-color: #6b8e23; 
+    background-color: #6f7364;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .home-title {
     font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
     font-size: 2em;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
 }
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 20px;
+    
+
+}
+
 
 h2 {
-    margin: 20px 0; /* Added margin for spacing */
+    margin: 0; /* Added margin for spacing */
 }
 
-h4,
 .book,
 .join,
 .msg h2,
@@ -79,7 +193,7 @@ h4,
 footer,
 footer a,
 footer a:hover {
-    color: #ff5722; 
+    color: #d9c2a3; 
 }
 
 .icon {
@@ -92,8 +206,55 @@ footer a:hover {
 
 .card-img {
     border: 10px solid #d9c2a3;
-    border-radius: 10px; 
+    width: 100%;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
 }
+.card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+.rivers-card {
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+    padding: 10px;
+    text-align: center;
+}
+
+.camping-card {
+    grid-column: 5 / 7;
+    grid-row: 2 / 3;
+    padding: 10px;
+    text-align: center;
+}
+
+.rapids-card {
+    grid-column: 8 / 10;
+    grid-row: 2 / 3;
+    padding: 10px;
+    text-align: center;
+}
+
+#background {
+    grid-column: 1 / 11;
+    grid-row: 4 / 9;
+}
+
+.mountains {
+    grid-column: 2 / 7;
+    grid-row: 5 / 8;
+    width: 100%;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.msg {
+    background-color: #6f7364;
+    padding: 35px;
+    grid-column: 6 / 10;
+    grid-row: 6 / 7;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
 
 main section img {
     box-sizing: border-box;
@@ -103,6 +264,10 @@ footer a {
     text-decoration: none; 
 }
 
+footer a:hover {
+    background-color: rgba(217, 194, 163, 0.2);
+}
+
 footer p {
     font-size: 1.2em; 
 }
@@ -110,5 +275,46 @@ footer p {
 footer p a:hover {
     text-decoration: underline; 
 }
-
-
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    #hero-msg h1 {
+        color: #6f7364;
+    }
+    .home-title {
+        font-size: 25px;
+    }
+    .rivers-card, .camping-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}
