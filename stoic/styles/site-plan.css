@@ -173,3 +173,11 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+.site-plan-header {
+
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+
+}
