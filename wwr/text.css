@@ -1,0 +1,104 @@
+/* Hero Image Styling */
+.hero-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Content Sections Styling */
+.content-section {
+    margin: 40px 20px;
+}
+
+.text-image-container {
+    display: flex;
+    flex-wrap: wrap; /* Makes it responsive */
+    gap: 20px;
+}
+
+.text-image-container .text-content {
+    flex: 1;
+    padding: 10px;
+    font-size: 1em;
+    color: #555;
+    line-height: 1.6;
+}
+
+.text-image-container .image-content img {
+    flex: 1;
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Styling */
+footer {
+    background-color: #6f7364;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer .social img {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+    transition: transform 0.3s ease;
+}
+
+footer .social img:hover {
+    transform: scale(1.2); /* Zoom effect on hover */
+}
+
+/* FAQ Styling Improvements */
+.faq-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin: 40px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.faq-section h2 {
+    color: #6f7364;
+    text-transform: uppercase;
+    font-size: 1.8em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.faq-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.faq-item p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .text-image-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .text-image-container .image-content img {
+        max-width: 100%;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+}
