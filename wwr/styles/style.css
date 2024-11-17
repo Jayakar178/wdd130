@@ -333,3 +333,111 @@ footer p a:hover {
         margin-top: 25px;
     }
 }
+  .first-h2{
+    padding-left: 650px;
+  }
+ .First-image img {
+    width: 100%;
+    height:600px;
+    padding-top:30px;
+ }
+ .image1 img {
+    float: right; /* Moves the image to the right */
+    margin-left: 1em; /* Adds spacing between the image and text */
+
+}
+.image1p1 {
+    clear: both; /* Ensures text remains below the floated image */
+}
+.image1 .text-image-container {
+    display: flex; /* Enables side-by-side layout */
+    flex-direction: row; /* Ensures text and image are side by side */
+    align-items: center; /* Aligns items vertically in the center */
+    gap: 20px; /* Adds space between the text and image */
+    margin: 20px; /* Adds space around the container */
+}
+
+.image1 .text-content {
+    flex: 1; /* Allows the text to take up available space */
+}
+
+.image1 .image-content img {
+    max-width: 400px; /* Ensures the image doesn't exceed a certain size */
+    height: auto; /* Maintains the aspect ratio */
+    border-radius: 5px; /* Optional: Adds rounded corners to the image */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+}
+.image2 .text-image-container {
+    display: flex; /* Enables side-by-side layout */
+    flex-direction: row; /* Image on the left, text on the right */
+    align-items: center; /* Aligns items vertically in the center */
+    gap: 20px; /* Adds space between the image and text */
+    margin: 20px; /* Adds space around the container */
+}
+
+.image2 .image-content img {
+    max-width: 400px; /* Ensures the image doesn't exceed a certain size */
+    height: auto; /* Maintains the aspect ratio */
+    border-radius: 5px; /* Optional: Adds rounded corners */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+}
+
+.image2 .text-content {
+    flex: 1; /* Allows the text to take up available space */
+    text-align: left; /* Aligns the text to the left */
+}
+.faq-section {
+    margin: 40px 20px; /* Adds spacing around the FAQ section */
+    padding: 20px; /* Adds padding inside the section */
+    background-color: #f9f9f9; /* Light background color */
+    border: 1px solid #ccc; /* Subtle border for structure */
+    border-radius: 5px; /* Rounded corners for a polished look */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Optional: Adds depth */
+}
+
+.faq-section h2 {
+    text-align: center; /* Centers the FAQ heading */
+    font-size: 2em; /* Larger font size for the heading */
+    margin-bottom: 20px; /* Adds space below the heading */
+    color: #333; /* Dark text color */
+    text-transform: uppercase; /* Makes the heading bold */
+}
+
+.faq {
+    display: flex; /* Enables a flexible layout */
+    flex-direction: column; /* Stacks each FAQ item vertically */
+    gap: 15px; /* Adds spacing between FAQ items */
+}
+
+.faq-item h3 {
+    font-size: 1.5em; /* Larger font for questions */
+    color: #6f7364; /* Matches the site's theme */
+    margin: 0; /* Removes default margin */
+}
+
+.faq-item p {
+    font-size: 1em; /* Regular size for answers */
+    color: #555; /* Subtle text color for answers */
+    line-height: 1.6; /* Improves readability */
+    margin: 5px 0 0 0; /* Adds space above the answer */
+}
+
+.title-section {
+    text-align: center; /* Centers the title horizontally */
+    background-image: linear-gradient(to right, #6f7364, #8b9a82); /* Adds a gradient background */
+    color: #ffffff; /* White text for contrast */
+    padding: 50px 20px; /* Adds space around the title */
+    margin: 0; /* Ensures no extra margin above or below */
+    border-bottom: 5px solid #d9c2a3; /* Optional: Adds a bold visual separator below */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+.title-section h1 {
+    font-size: 3.5em; /* Makes the title stand out */
+    margin: 0; /* Removes default margin */
+    font-family: 'Arial', sans-serif; /* Clean and professional font */
+    text-transform: uppercase; /* Adds a bold, dramatic effect */
+    letter-spacing: 3px; /* Creates spacing between the letters */
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3); /* Adds a glowing effect to the text */
+}
+
